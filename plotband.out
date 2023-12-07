@@ -1,0 +1,10 @@
+     Input file > Reading    6 bands at    307 k-points
+Range:   -0.0000  501.0889eV  Emin, Emax > high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+high-symmetry point:  0.0000 1.0000 0.0000   x coordinate   1.0000
+high-symmetry point:  0.5000 1.0000 0.0000   x coordinate   1.5000
+high-symmetry point:  0.5000 0.5000 0.5000   x coordinate   2.2071
+high-symmetry point:  0.7500 0.7500 0.0000   x coordinate   2.8195
+high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   3.8801
+high-symmetry point:  0.5000 0.5000 0.5000   x coordinate   4.7462
+output file (gnuplot/xmgr) > bands in gnuplot/xmgr format written to file freq.plot                                                                                                                                                                                                                                                       
+output file (ps) > Efermi > deltaE, reference E (for tics) bands in PostScript format written to file freq.ps                                                                                                                                                                                                                                                         

@@ -1,0 +1,12 @@
+phonons of Si
+ &inputph
+  tr2_ph=1.0d-12,
+  prefix='si',
+  ldisp=.true.,
+  nq1=2, nq2=2, nq3=2
+  amass(1)= 28.086
+  outdir='/Users/virgrammid/Desktop/Lab_7/tmp' 
+  fildyn='si.dyn',
+  recover=.true.
+ /
+

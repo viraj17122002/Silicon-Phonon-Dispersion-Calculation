@@ -1,0 +1,13 @@
+#!/bin/sh
+
+PARA_PREFIX=""
+PARA_POSTFIX=""
+BIN_DIR=/home/cme05/codes/qe-6.4.1/bin
+
+$PARA_PREFIX  $BIN_DIR/q2r.x      $PARA_POSTFIX < q2r.in > q2r.out
+$PARA_PREFIX  $BIN_DIR/matdyn.x    < matdyn.in > matdyn.out  
+$PARA_PREFIX  $BIN_DIR/plotband.x  < plotband.in > plotband.out 
+
+
+#PARA_PREFIX="mpirun -np 4"
+#PARA_POSTFIX="-nk 4 -nd 1 -nb 1 -nt 1"

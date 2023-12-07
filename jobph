@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PARA_PREFIX="mpirun -np 8"
+PARA_POSTFIX="-nk 4 -nd 1 -nb 1 -nt 1"
+BIN_DIR=/home/cme05/codes/qe-6.4.1/bin
+
+$PARA_PREFIX  $BIN_DIR/ph.x  $PARA_POSTFIX < si.ph.in > si.ph.out
+
+

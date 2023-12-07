@@ -1,0 +1,13 @@
+ &input
+    asr='simple',  amass(1)=28.086
+    flfrc='si222.fc', flfrq='si.freq', q_in_band_form=.true.,
+ /
+ 7
+  gG    51
+  X     51
+  W     51
+  L     51
+  K     51
+  gG    51
+  L     51
+
